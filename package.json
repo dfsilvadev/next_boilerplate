@@ -6,9 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "test": "jest",
-    "test:watch" : "yarn test --watch"
+    "test:watch": "yarn test --watch"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint"
+    ]
   },
   "dependencies": {
     "next": "11.1.0",
