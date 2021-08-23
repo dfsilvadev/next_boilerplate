@@ -35,3 +35,7 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+# sw stuff
+public/sw.js
+public/workbox-*.js
