@@ -26,9 +26,5 @@ export const Title = styled.h1`
 export const Description = styled.h2`
   font-size: 2rem;
   font-weight: 400;
-`;
-
-export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
+  margin-bottom: 3rem;
 `;

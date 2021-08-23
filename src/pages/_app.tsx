@@ -18,10 +18,7 @@ function App({ Component, pageProps }: AppProps) {
           href="/img/icon-512.png"
           type="image/x-icon"
         />
-        <meta
-          name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
-        />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
