@@ -1,5 +1,3 @@
-![React Avançado](https://github.com/daniel-silva-dxp/next_boilerplate/blob/main/public/img/logo.svg)
-
 Boilerplate [Next.js](https://nextjs.org/) para ser usado nos meus projetos.
 
 ## What is inside?
