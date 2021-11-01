@@ -1,3 +1,4 @@
+import { ComponentProps } from "react";
 import { Story, Meta } from "@storybook/react/types-6-0";
 
 import Main from ".";
@@ -11,6 +12,9 @@ export default {
   }
 } as Meta;
 
-export const Basic: Story = ({ title, description }) => {
+export const Basic: Story<ComponentProps<typeof Main>> = ({
+  title,
+  description
+}) => {
   return <Main title={title} description={description} />;
 };

@@ -1,9 +1,11 @@
 import * as S from "./styles";
 
-const Main = ({
-  title = "Boilerplate",
-  description = "TypeScript, React, NextJS e Styled Componets"
-}) => (
+type MainProps = {
+  title?: string;
+  description?: string;
+};
+
+const Main = ({ title, description }: MainProps) => (
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
