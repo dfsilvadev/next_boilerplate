@@ -6,7 +6,6 @@ type MainProps = {
 };
 
 const Main = ({ title, description }: MainProps) => {
-  const foo = "bar";
   return (
     <S.Wrapper>
       <S.Logo
